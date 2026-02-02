@@ -1,5 +1,10 @@
 package main
+import ("bufio" 
+		"os")
 
 func main() {
-	cleanInput("Hello")
+	scanner := bufio.NewScanner(os.Stdin)
+	for {
+		
+	}
 }
